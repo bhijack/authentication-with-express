@@ -9,7 +9,7 @@ const crypto = require('crypto')
 const jwt = require('jsonwebtoken')
 
 const mongo = require('mongodb')
-const mongoURL = 'mongodb://1palette:Qy9jcErb3UKEnnJr@localhost:27017'
+const mongoURL = 'mongodb://'
 const dbName = 'test_authen_system'
 const collectionName = 'users'
 
